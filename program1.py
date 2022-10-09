@@ -7,8 +7,8 @@ if yearOfService>10:
 elif 10>yearOfService>6:
     bonus = 0.8*salary
     print("Your encrimented salary is =", bonus+salary)
-elif yearOfService<6:
+elif 0<yearOfService<6:
     bonus = 0.5*salary
     print("Your encrimented salary is =", bonus+salary)
 else:
-    print("OPPS!!! your salary is not encrimented")
+    print("...")
