@@ -5,6 +5,7 @@
 a = "HELLO WORLD"
 print(a[6])
 print(a[0:9],a[0:5])
+print(a [-6:-3])
 print(len(a)) # To find length of the string.
 b = "a quick brown fox jumps uver the lazy dog"
 if "not" in b:  #this is for searing any word or alpahabet from any sentence and its is sensitive so it has to be written in the same way it is written in the sentence.
@@ -16,3 +17,11 @@ if "ox" not in b:   #not in is for the perticular sentence is there it is or not
     print("No")
 else:
     print("...")
+
+#[:] it inclue starting but exclude end index value that is written in this[:]
+#[:] print start to end of sentence
+#[0:] print to the end of sentence
+#[:7] print starting to the 6th index
+# this is for negative indexing
+#a = "HELLO WORLD"
+#print(a [-5:-2])
