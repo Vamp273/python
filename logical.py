@@ -17,4 +17,3 @@ elif age3<age2 and age3<age1:
     print("age3 is youngest among all")
 else:
     print("None of the above")
-
