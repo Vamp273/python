@@ -1,3 +1,4 @@
+#doing the same thing on repeat
 def fact(n):
     if n==0:
         return 1
@@ -5,12 +6,13 @@ def fact(n):
 num = fact(25)
 print(num)
 
-#square of a nujmber
+#square of a number
 def sq(x):
     return x**2
 x = sq(5)
 print(x)
 
+# how to short the length of code... using lambda
 y = lambda a : a*a
 num = y(5)
 print(num)
